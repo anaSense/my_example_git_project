@@ -7,6 +7,7 @@ public class Main {
         System.out.println(getRandomMessage());
     }
 
+    //comment
     public static String getRandomMessage() {
         Random rand = new Random();
         int i = rand.nextInt(5);

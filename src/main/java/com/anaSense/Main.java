@@ -13,7 +13,7 @@ public class Main {
         int i = rand.nextInt(10);
         System.out.println("i = " + i);
         if (i == 0) {
-            return "Hello QA GURU?";
+            return "Hello QA.GURU?";
         } else if (i == 1) {
             return "Hello World?";
         } else if (i>1 && i<5) {

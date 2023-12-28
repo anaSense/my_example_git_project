@@ -9,7 +9,7 @@ public class Main {
 
     public static String getRandomMessage() {
         Random rand = new Random();
-        int i = rand.nextInt(5);
+        int i = rand.nextInt(10);
         System.out.println("i = " + i);
         String message = "";
         if (i == 0) {

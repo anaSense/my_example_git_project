@@ -18,6 +18,8 @@ public class Main {
             return "Hello World?";
         } else if (i>1 && i<5) {
             return "Hello IntelliJ IDEA?";
+        } else if (i>=5 && i<8) {
+            return "Hello Anna?";
         } else {
             return "Hello Java?";
         }

@@ -2,10 +2,10 @@ package com.anaSense;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(getMessage());
+        System.out.println(getRandomMessage());
     }
 
-    public static String getMessage() {
+    public static String getRandomMessage() {
         Random rand = new Random();
         int i = rand.nextInt(5);
         System.out.println("i = "+i);

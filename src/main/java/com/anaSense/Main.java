@@ -10,15 +10,16 @@ public class Main {
     //comment
     public static String getRandomMessage() {
         Random rand = new Random();
-        int i = rand.nextInt(5);
+        int i = rand.nextInt(10);
         System.out.println("i = " + i);
-        String message = "";
         if (i == 0) {
-            return message = "Hello QA GURU?";
+            return "Hello QA GURU?";
         } else if (i == 1) {
-            return message = "Hello World?";
+            return "Hello World?";
+        } else if (i>1 && i<5) {
+            return "Hello IntelliJ IDEA?";
         } else {
-            return message = "Hello IntelliJ IDEA?";
+            return "Hello Java?";
         }
     }
 }

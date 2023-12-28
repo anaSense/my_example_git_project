@@ -11,9 +11,9 @@ public class Main {
         System.out.println("i = "+i);
         String message = "";
         if (i == 0) {
-            return message = "Hello QA GURU!";
+            return message = "Hello QA GURU?";
         } else if (i == 1) {
-            return message = "Hello World!";
+            return message = "Hello World?";
         } else {
-            return message = "Hello IntelliJ IDEA!";
+            return message = "Hello IntelliJ IDEA?";
         }

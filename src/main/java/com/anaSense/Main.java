@@ -20,3 +20,4 @@ public class Main {
             return message = "Hello IntelliJ IDEA?";
         }
     }
+}
